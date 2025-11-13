@@ -57,3 +57,10 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+
+.hero img {
+  margin-left: 35%;
+  height: 200px;
+  width: 200px;
+}
