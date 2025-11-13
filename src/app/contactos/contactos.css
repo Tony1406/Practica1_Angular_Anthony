@@ -1,0 +1,35 @@
+.contactos {
+  padding: 1.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.section {
+  background-color: #f3f4f6;
+  border-radius: 0.75rem;
+  padding: 1.5rem 5rem;
+  display: grid;
+  grid-template-columns: 200px 160px minmax(0, 1fr); 
+  align-items: center; 
+  column-gap: 4rem;
+  margin-bottom: 18px;
+}
+
+.section-left h2 {
+  margin: 0;
+}
+
+.section-image img {
+  height: 10rem;
+  width: 10rem;
+
+  padding: 0.8rem;
+}
+
+.section-text p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #374151;
+}
